@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 export default function About() {
   return (
     <>
-  <div className="m container text-white mt-20 ms-10 flex flex-col items-center justify-around">
+  <div className=" container text-white mt-20  flex flex-col items-center justify-around">
   <span className="text-3xl font-bold mb-8 me-5">About Me</span>
   
   <div className="flex flex-col md:flex-row justify-around items-center w-full max-w-screen-lg mx-auto mt-8 ">
-    <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/2 flex  mb-8 md:mb-0">
+    <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left justify-center w-full md:w-1/2 flex  mb-8 md:mb-0">
       <div className="w-3/4">
         <img className="w-full" src={img} alt="Profile" />
       </div>

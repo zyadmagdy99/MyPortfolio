@@ -1,16 +1,16 @@
 import React from "react";
-import img from "../assets/projects/project-1.jpg";
 import por from "../assets/e-commerece.jpg.png";
 import por2 from "../assets/food.jpg.png";
 import por3 from "../assets/gaming.jpg.png";
 import por4 from "../assets/weather.jpg.png";
 import por5 from "../assets/blog.jpg.png";
+import por6 from "../assets/social2.png";
 import { motion } from "framer-motion";
 
 
 export default function Projects() {
     return (
-        <div className="flex flex-col justify-center items-center text-white mt-10">
+        <div className="flex flex-col justify-center items-center  text-white mt-10">
           <span className="text-white text-4xl m-8">Projects</span>
           <div className="flex flex-col gap-6 ms-6">
             {/* Project 1 */}
@@ -27,6 +27,22 @@ export default function Projects() {
       <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
       <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
       <span className="bg-slate-500 p-1 rounded-lg">React</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
+    </div>
+  </motion.div>
+</div>
+            <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
+  <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
+    <img className="w-full object-cover mx-auto" src={por6} alt="" />
+  </motion.div>
+  <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
+    <span className="text-lg text-center md:text-xl mt-4">Social Website</span>
+    <span>• Developed a responsive interface for seamless user experiences across devices.</span>
+    <span>• Built a social platform with real-time interactions, user authentication, and profiles.</span>
+    <div className="flex gap-4 justify-center md:justify-start">
+      <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
+      <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Next js</span>
       <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
     </div>
   </motion.div>
