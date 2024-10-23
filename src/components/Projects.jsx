@@ -5,18 +5,23 @@ import por3 from "../assets/gaming.jpg.png";
 import por4 from "../assets/weather.jpg.png";
 import por5 from "../assets/blog.jpg.png";
 import por6 from "../assets/social2.png";
+import por7 from "../assets/cinema.png";
 import { motion } from "framer-motion";
-
 
 export default function Projects() {
     return (
         <div className="flex flex-col justify-center items-center  text-white mt-10">
           <span className="text-white text-4xl m-8">Projects</span>
           <div className="flex flex-col gap-6 ms-6">
-            {/* Project 1 */}
+          
             <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
   <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
+<a href="https://e-commerce2-three.vercel.app/" target="_blank">
+
     <img className="w-full object-cover mx-auto" src={por} alt="E-commerce Website" />
+</a>
+    
+  
   </motion.div>
   <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
     <span className="text-lg text-center md:text-xl mt-4">E-Commerce Website</span>
@@ -33,7 +38,10 @@ export default function Projects() {
 </div>
             <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
   <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
+    <a href="https://identity-xc3w.vercel.app/" target="_blank">
     <img className="w-full object-cover mx-auto" src={por6} alt="" />
+
+    </a>
   </motion.div>
   <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
     <span className="text-lg text-center md:text-xl mt-4">Social Website</span>
@@ -50,18 +58,22 @@ export default function Projects() {
 
 <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
   <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.2}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
-    <img className="w-full object-cover mx-auto" src={por3} alt="Gaming Website" />
+    <a href="https://movies-8ybb.vercel.app/" target="_blank">
+    
+    <img className="w-full object-cover mx-auto" src={por7} alt="Gaming Website" />
+    </a>
   </motion.div>
   <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.2}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
-    <span className="text-lg text-center md:text-xl mt-4">Gaming Website</span>
-    <span>• Developed a fully responsive game website with a modern design and smooth animations.</span>
-    <span>• Implemented categories for easy access to games using an API.</span>
+    <span className="text-lg text-center md:text-xl mt-4">Cinema Vault</span>
+    <span>• Developed a dynamic movie information website with a responsive and interactive UI using Next.js.</span>
+    <span>• Integrated external movie APIs for fetching and displaying real-time movie information (ex: ratings, descriptions).</span>
+    <span>• Optimized performance and SEO using server-side rendering (SSR) and static site generation (SSG).</span>
     <div className="flex gap-4 justify-center md:justify-start">
       <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
       <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
       <span className="bg-slate-500 p-1 rounded-lg">JavaScript</span>
-      <span className="bg-slate-500 p-1 rounded-lg">Bootstrap</span>
-      <span className="bg-slate-500 p-1 rounded-lg">jQuery</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Next.js</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Tailwendcss</span>
     </div>
   </motion.div>
 </div>
@@ -69,7 +81,10 @@ export default function Projects() {
            
             <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center  md:text-left">
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.4}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6">
+        <a href="https://weather-er4h.vercel.app/" target="_blank">
         <img className="w-full mx-auto" src={por4} alt="Weather App" />
+        
+        </a>
       </motion.div>
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.4}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-1/2">
         <span className="text-lg text-center md:text-xl">Weather App</span>
@@ -101,7 +116,10 @@ export default function Projects() {
       </div>
       <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center  md:text-left">
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.8}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6">
+        <a href="https://github.com/zyadmagdy99/Blog-PHP-" target="_blank">
         <img className="w-full mx-auto" src={por5} alt="Blog Website" />
+
+        </a>
       </motion.div>
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.8}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-1/2">
         <span className="text-lg text-center md:text-xl">Blog Website</span>
