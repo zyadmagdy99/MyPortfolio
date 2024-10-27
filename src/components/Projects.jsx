@@ -6,6 +6,7 @@ import por4 from "../assets/weather.jpg.png";
 import por5 from "../assets/blog.jpg.png";
 import por6 from "../assets/social2.png";
 import por7 from "../assets/cinema.png";
+import por8 from "../assets/iphone.png";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -29,8 +30,7 @@ export default function Projects() {
     <span>• Created features for product display and user authentication.</span>
     <span>• Integrated a real-world payment gateway (Stripe) into the app.</span>
     <div className="flex gap-4 justify-center md:justify-start">
-      <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
-      <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
+     <span className="bg-slate-500 p-1 rounded-lg">Redux</span>
       <span className="bg-slate-500 p-1 rounded-lg">React</span>
       <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
     </div>
@@ -48,8 +48,7 @@ export default function Projects() {
     <span>• Developed a responsive interface for seamless user experiences across devices.</span>
     <span>• Built a social platform with real-time interactions, user authentication, and profiles.</span>
     <div className="flex gap-4 justify-center md:justify-start">
-      <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
-      <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Redux</span>
       <span className="bg-slate-500 p-1 rounded-lg">Next js</span>
       <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
     </div>
@@ -65,7 +64,7 @@ export default function Projects() {
   </motion.div>
   <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.2}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
     <span className="text-lg text-center md:text-xl mt-4">Cinema Vault</span>
-    <span>• Developed a dynamic movie information website with a responsive and interactive UI using Next.js.</span>
+    <span>• Developed a dynamic movie website with a responsive and interactive UI using Next.js.</span>
     <span>• Integrated external movie APIs for fetching and displaying real-time movie information (ex: ratings, descriptions).</span>
     <span>• Optimized performance and SEO using server-side rendering (SSR) and static site generation (SSG).</span>
     <div className="flex gap-4 justify-center md:justify-start">
@@ -99,18 +98,21 @@ export default function Projects() {
     </div>
     <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center  md:text-left">
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6">
-        <img className="w-full mx-auto" src={por2} alt="Food Review Website" />
+        <a href="https://iphone-five-vert.vercel.app/">
+        <img className="w-full mx-auto" src={por8} alt="iphone" />
+        </a>
       </motion.div>
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-1/2">
-        <span className="text-lg text-center md:text-xl">Food Review Website</span>
-        <span>• Created a food recipe exploration website, allowing users to browse and filter through a variety of recipes.</span>
-        <span>• Implemented jQuery for efficient DOM manipulation and interactive features.</span>
+        <span className="text-lg text-center md:text-xl">Iphone launch</span>
+        <span>        • High-performance animation and transitions for engagind user experience.</span>
+        <span>    • Optimized media assets and responsive design for fast load times on all devices.</span>
+        <span> • Dynamic content sections highlighting device specifications, pricing, and availability.
+        </span>
         <div className="flex gap-4 justify-center md:justify-start">
-          <span className="bg-slate-500 p-1 rounded-lg">HTML</span>
-          <span className="bg-slate-500 p-1 rounded-lg">CSS</span>
-          <span className="bg-slate-500 p-1 rounded-lg">JavaScript</span>
-          <span className="bg-slate-500 p-1 rounded-lg">Bootstrap</span>
-          <span className="bg-slate-500 p-1 rounded-lg">jQuery</span>
+
+          <span className="bg-slate-500 p-1 rounded-lg">React js</span>
+          <span className="bg-slate-500 p-1 rounded-lg">tailwind css</span>
+          <span className="bg-slate-500 p-1 rounded-lg">GSAP</span>
         </div>
       </motion.div>
       </div>
