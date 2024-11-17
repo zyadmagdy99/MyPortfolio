@@ -23,7 +23,7 @@ export default function About() {
       </p>
      
       <p className="mt-4">
-        Outside of web development, my scientific curiosity still drives me to stay up-to-date with the latest technological trends, and I enjoy working on personal projects, including a gaming website!
+        Outside of web development, my scientific curiosity still drives me to stay up-to-date with the latest technological trends, and I enjoy working on a various projects to practise on differnet design patterns.
       </p>
     </motion.div>
   </div>
