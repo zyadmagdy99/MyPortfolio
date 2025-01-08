@@ -1,4 +1,3 @@
-import React from 'react'
 import img from "../assets/about.jpg"
 import { motion } from 'framer-motion'
 
@@ -17,7 +16,7 @@ export default function About() {
     
     <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right w-full md:w-1/2 me-5 flex flex-col md:ms-8 px-6">
       <p>
-        Hi, I'm ZYAD MAGDY, a former veterinarian turned full stack developer with a passion for technology and web development.
+        Hi, I&apos;m ZYAD MAGDY, a former veterinarian turned full stack developer with a passion for technology and web development.
         After spending several years in the veterinary field, I made a career shift to pursue my love for building dynamic, scalable web applications.
         My background in science gives me a unique perspective on problem-solving, which I now apply to crafting efficient and user-friendly digital solutions.
       </p>

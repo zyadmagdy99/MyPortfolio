@@ -1,7 +1,5 @@
-import React from "react";
-import por from "../assets/e-commerece.jpg.png";
 import por2 from "../assets/amazon.png";
-import por4 from "../assets/weather.jpg.png";
+import por4 from "../assets/foodix.png";
 import por5 from "../assets/blog.jpg.png";
 import por6 from "../assets/dash.png";
 import por7 from "../assets/cinema.png";
@@ -14,27 +12,6 @@ export default function Projects() {
           <span className="text-white text-4xl m-8">Projects</span>
           <div className="flex flex-col gap-6 ms-6">
           
-            <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
-  <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
-<a href="https://e-commerce2-three.vercel.app/" target="_blank">
-
-    <img className="w-full object-cover rounded-lg mx-auto" src={por} alt="E-commerce Website" />
-</a>
-    
-  
-  </motion.div>
-  <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
-    <span className="text-lg text-center md:text-xl mt-4">E-Commerce Website</span>
-    <span>• Developed an e-commerce website with a dynamic and responsive front-end using React.js.</span>
-    <span>• Created features for product display and user authentication.</span>
-    <span>• Integrated a real-world payment gateway (Stripe) into the app.</span>
-    <div className="flex gap-4 justify-center md:justify-start">
-     <span className="bg-slate-500 p-1 rounded-lg">Redux</span>
-      <span className="bg-slate-500 p-1 rounded-lg">React</span>
-      <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
-    </div>
-  </motion.div>
-</div>
             <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
   <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
     <a href="https://amazon-clone-2ddh.vercel.app/" target="_blank">
@@ -52,6 +29,29 @@ export default function Projects() {
       <span className="bg-slate-500 p-1 rounded-lg">Next js</span>
       <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
       <span className="bg-slate-500 p-1 rounded-lg">Next.Auth</span>
+    </div>
+  </motion.div>
+</div>
+            <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center">
+  <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6 flex h-[150px]">
+<a href="https://recipy-seven.vercel.app/" target="_blank">
+
+    <img className="w-full object-cover rounded-lg mx-auto" src={por4} alt="E-commerce Website" />
+</a>
+    
+  
+  </motion.div>
+  <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
+    <span className="text-lg text-center md:text-xl mt-4">Foodix</span>
+    <span> • Developed a fully functional food discovery platform, replicating</span>
+    <span>• Developed a fully functional food discovery platform, replicating core features of popular meal search
+    engines, ensuring fast load times and smooth user interactions.</span>
+    <span>• Integrated animations with Framer Motion to enhance user interaction and create a dynamic browsing
+    experience.</span>
+    <div className="flex gap-4 justify-center md:justify-start">
+      <span className="bg-slate-500 p-1 rounded-lg">Next JS</span>
+      <span className="bg-slate-500 p-1 rounded-lg">Tailwind</span>
+     <span className="bg-slate-500 p-1 rounded-lg">Framer Motion</span>
     </div>
   </motion.div>
 </div>
