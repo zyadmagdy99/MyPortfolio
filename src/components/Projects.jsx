@@ -3,7 +3,8 @@ import por4 from "../assets/foodix.png";
 import por5 from "../assets/blog.jpg.png";
 import por6 from "../assets/dash.png";
 import por7 from "../assets/cinema.png";
-import por8 from "../assets/iphone.png";
+import por9 from "../assets/elearn.png";
+import por10 from "../assets/landing.png";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -21,7 +22,7 @@ export default function Projects() {
   </motion.div>
   <motion.div initial={{x:100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:0}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-3/6">
     <span className="text-lg text-center md:text-xl mt-4">Amazon_Clone</span>
-    <span>• Developed a fully functional e-commerce platform replicating Amazon's features.</span>
+    <span>• Developed a fully functional e-commerce platform replicating Amazon features.</span>
     <span>• Implemented dynamic product listings, user authentication, a shopping cart, favourite list, and a checkout system.</span>
     <span>• Managed state efficiently with Redux for seamless user experience.</span>
     <div className="flex gap-4 justify-center md:justify-start">
@@ -100,21 +101,41 @@ export default function Projects() {
     </div>
     <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center  md:text-left">
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6">
-        <a href="https://iphone-five-vert.vercel.app/">
-        <img className="w-full mx-auto rounded-lg" src={por8} alt="iphone" />
+        <a href="https://e-learning-nine-sandy.vercel.app/">
+        <img className="w-full mx-auto rounded-lg" src={por9} alt="iphone" />
         </a>
       </motion.div>
       <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-1/2">
-        <span className="text-lg text-center md:text-xl">Iphone launch</span>
+        <span className="text-lg text-center md:text-xl">E-Learning</span>
         <span>        • High-performance animation and transitions for engagind user experience.</span>
         <span>    • Optimized media assets and responsive design for fast load times on all devices.</span>
-        <span> • Dynamic content sections highlighting device specifications, pricing, and availability.
+        <span> • Dynamic content sections highlighting Courses specifications, pricing, and availability.
+        </span>
+        <div className="flex gap-4 justify-center md:justify-start">
+
+          <span className="bg-slate-500 p-1 rounded-lg">Next js</span>
+          <span className="bg-slate-500 p-1 rounded-lg">tailwind css</span>
+          <span className="bg-slate-500 p-1 rounded-lg">AOS</span>
+        </div>
+      </motion.div>
+      </div>
+    <div className="repeats flex flex-col md:flex-row gap-10 justify-center items-center  md:text-left">
+      <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="left w-full md:w-1/6">
+        <a href="https://landing-page-ashen-eight-97.vercel.app/">
+        <img className="w-full mx-auto rounded-lg" src={por10} alt="iphone" />
+        </a>
+      </motion.div>
+      <motion.div initial={{x:-100,opacity:0}}  viewport={{ once: true }} transition={{duration:.5,delay:.6}} whileInView={{opacity:1 , x:0}} className="right flex flex-col gap-2 w-full md:w-1/2">
+        <span className="text-lg text-center md:text-xl">Modern Landing page</span>
+        <span>        • Modern UI/UX design with a clean, professional look to attract users.</span>
+        <span>    • Optimized media assets and responsive design for fast load times on all devices.</span>
+        <span> • Cross-browser compatibility to ensure smooth performance across different browsers.
         </span>
         <div className="flex gap-4 justify-center md:justify-start">
 
           <span className="bg-slate-500 p-1 rounded-lg">React js</span>
           <span className="bg-slate-500 p-1 rounded-lg">tailwind css</span>
-          <span className="bg-slate-500 p-1 rounded-lg">GSAP</span>
+          <span className="bg-slate-500 p-1 rounded-lg">motion</span>
         </div>
       </motion.div>
       </div>
